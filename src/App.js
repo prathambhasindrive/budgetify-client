@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h1 className="text-3xl font-bold underline bg-red-100">
-      Hello world!
+      I am Pratham
     </h1>
         <a
           className="App-link"
