@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { RxHamburgerMenu } from "react-icons/rx";
  
 const Navbar = () => {
   return (
+    
     <nav className="bg-gray-400 w-full h-12 flex items-center ">
       <div className="flex w-full justify-between items-center">
-        <div className="text-white font-bold mx-2 my-1 text-2xl cursor-pointer">Budgetify</div>
+        
+        <div className="text-white font-bold mx-2 my-1 text-2xl cursor-pointer"><Link to="/">Budgetify</Link></div>
+
         <ul className="hidden md:flex border-box">
           <li className="text-blue-900 font-bold mx-2 my-1 hover:border-b-2 hover:border-blue-900 hover:border-solid">
             <Link to="/">Home</Link>
@@ -20,12 +24,16 @@ const Navbar = () => {
             <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
+
         <div>
           <button className="bg-blue-600 px-2 py-1 mx-2 rounded-md text-white hover:bg-blue-500 hidden md:inline ">
-            <link to="/signup">Sign Up</link>
+            <Link to="/signup">Sign Up</Link>
           </button>
-          <button className="bg-blue-600 px-2 py-1 mx-2 rounded-md text-white hover:bg-blue-500  md:inline">
-            <link to="login">Log In</link>
+          <button className="bg-blue-600 px-2 py-1 mx-2 rounded-md text-white hover:bg-blue-500 hidden  md:inline">
+            <Link to="login">Log In</Link>
+          </button>
+          <button className="bg-blue-600 px-2 py-1 mx-2 rounded-md text-white hover:bg-blue-500   md:hidden ">
+          <RxHamburgerMenu />
           </button>
         </div>
       </div>
