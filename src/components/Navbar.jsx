@@ -46,7 +46,7 @@ const Navbar = ({ isOpen, toggleMenu }) => {
       </nav>
 
       {isOpen && (
-        <div className="menu md:hidden h-screen w-full bg-gray-400 flex items-start justify-center px-4 py-4 text-white text-4xl text-center border-t-2 border-t-white">
+        <div className="menu md:hidden h-dvh w-full bg-gray-400 flex items-start justify-center px-4 py-4 text-white text-2xl text-center border-t-2 border-t-white">
           <ul>
             <li className="my-6 px-2 py-4 hover:bg-[rgba(255,255,255,0.2)] hover:rounded-lg" onClick={toggleMenu}>
               <NavLink exact to="/" >Home</NavLink>
