@@ -9,13 +9,13 @@ const Navbar = ({ isOpen, toggleMenu }) => {
     <>
       <nav className="bg-gray-400 w-full h-12 flex items-center ">
         <div className="flex w-full justify-between items-center">
-          <div className="text-white font-bold mx-2 my-1 text-2xl cursor-pointer">
-            <Link exact to="/">Budgetify</Link>
+          <div className="text-white font-bold mx-2 my-1 text-2xl cursor-pointer animate-bounce">
+            <Link to="/">Budgetify</Link>
           </div>
 
           <ul className="hidden md:flex border-box">
             <li className="text-blue-900 font-bold mx-2 my-1 hover:border-b-2 hover:border-blue-900 hover:border-solid">
-              <NavLink exact to="/" >Home</NavLink>
+              <NavLink to="/" >Home</NavLink>
             </li>
             <li className="text-blue-900 font-bold mx-2 my-1 hover:border-b-2 hover:border-blue-900 hover:border-solid">
               <NavLink to="/services" >Services</NavLink>
