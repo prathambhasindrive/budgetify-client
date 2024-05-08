@@ -5,7 +5,7 @@ const Herosection = () => {
     <div className="w-full bg-gray-200">
       <div className="hero-section px-2 py-4 flex flex-col md:flex-col w-full md:w-[90%] lg:w-[90%] md:mx-auto lg:flex-row">
         <div className="text mb-4 text-center h-full lg:w-1/2 flex flex-col justify-center items-center lg:h-[400px]">
-          <div className="headline text-3xl font-serif font-bold tracking-wider ">
+          <div className="headline text-3xl font-serif font-bold tracking-wider text-green-900  ">
             <p>"Transform Your Finances</p>
             <p>with Budgetify."</p>
           </div>
