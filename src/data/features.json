@@ -1,0 +1,35 @@
+{
+    "features": [
+      {
+        "name": "Expense Tracking",
+        "icon": "/assets/images/tracking-feature.png",
+        "description": "Track your expenses effortlessly with our intuitive interface. Stay on top of your spending habits and gain insights to make informed financial decisions."
+      },
+      {
+        "name": "Savings Goal Setting",
+        "icon": "/assets/images/savings-goal-setting-feature.png",
+        "description": "Set and achieve your financial goals with ease. Whether it's saving for a vacation, a new car, or retirement, our app helps you stay motivated and focused."
+      },
+      {
+        "name": "Investment Portfolio Management",
+        "icon": "/assets/images/investment-portfolio-feature.png",
+        "description": "Manage your investments like a pro. Monitor your portfolio's performance, diversify your assets, and stay informed about market trends ."
+      },
+      {
+        "name": "Budgeting Tools",
+        "icon": "/assets/images/budgeting-tools-feature.png",
+        "description": "Create personalized budgets and take control of your finances. Our budgeting tools make it easy to allocate funds, track expenses."
+      },
+      {
+        "name": "Bill Reminders",
+        "icon": "/assets/images/bill-reminders-feature.png",
+        "description": "Never miss a payment deadline again. Receive timely reminders for upcoming bills and subscriptions, ensuring that you stay organized and avoid late fees."
+      },
+      {
+        "name": "Customizable Reports",
+        "icon": "/assets/images/customizable-reports-feature.png",
+        "description": "Gain valuable insights into your financial health. Generate customizable reports that visualize your spending patterns, savings progress, and investment performance."
+      }
+    ]
+  }
+  

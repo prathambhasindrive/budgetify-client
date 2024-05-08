@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import { AppContext } from './Context/AppContext';
 import './App.css';
-import Spinner from './components/Spinner';
+// import Spinner from './components/Spinner';
 
 function App() {
   const { isOpen } = useContext(AppContext);
