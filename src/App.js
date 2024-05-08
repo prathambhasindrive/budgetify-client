@@ -1,4 +1,4 @@
-import React , { useState } from 'react';
+import React , { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -8,19 +8,17 @@ import Contact from './pages/Contact';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
-
+import { AppContext } from './Context/AppContext';
 import './App.css';
+import Spinner from './components/Spinner';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const { isOpen } = useContext(AppContext);
   return (
       <Router>
     <div className="App">
-      <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
+      <Navbar />
+      {/* <Spinner /> */}
         {!isOpen && (
         <Routes>
           <Route exact path='/' element={<Home />} />
