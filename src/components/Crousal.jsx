@@ -47,17 +47,17 @@ const Crousal = () => {
   };
 
   return (
-    <div className="bg-gray-200 box-border">
+    <div className="bg-[#e8cfe0] box-border">
       <div className="slider-container flex flex-col justify-center w-[90%] mx-auto px-4 py-8">
         <h2 className="text-3xl md:text-4xl font-mono font-bold text-green-900 text-center my-4">
           Testimonials
         </h2>
         <Slider {...settings}>
           {testimonialData.testimonials.map((testimonial) => (
-            <div className="flex flex-col min-h-[250px] w-[150px] justify-center">
+            <div key={testimonial.id} className="flex flex-col min-h-[250px] w-[150px] justify-center">
               <div
-                key={testimonial.id}
-                className="testimonials h-[90%] w-[90%]} border-2 border-white border-solid rounded-lg px-4 py-4 my-2 mx-2 bg-gray-300"
+                
+                className="testimonials h-[90%] w-[90%]} border-2 border-white border-solid rounded-lg px-4 py-4 my-2 mx-2 bg-[#e8cfe0]"
               >
                 <div className="flex flex-col justify-center items-center lg:flex-col md:flex-col ">
                   <img
