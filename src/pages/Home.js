@@ -7,8 +7,8 @@ import Crousal from '../components/Crousal';
 const Home = () => {
     return ( 
         <>
-           {/* <Herosection />  */}
-           {/* <Featuresection /> */}
+           <Herosection /> 
+           <Featuresection />
            <Crousal />
 
            <Footer />

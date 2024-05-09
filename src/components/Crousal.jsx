@@ -6,19 +6,21 @@ import testimonialData from "../data/testimonail.json";
 
 const Crousal = () => {
   var settings = {
-    className: "center",
-    centerMode: true,
-    centerPadding: "60px",
     dots: true,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
+    slidesToShow: 4,
+    // slidesToScroll: 4,
+    initialSlide: 0,
+    
+    dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
     cssEase: "linear",
-    rows: 2,
-    slidesPerRow: 2,
+    
     responsive: [
       {
         breakpoint: 1024,
@@ -35,6 +37,7 @@ const Crousal = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
@@ -42,40 +45,45 @@ const Crousal = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],
   };
 
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 box-border">
       <div className="slider-container flex flex-col justify-center w-[90%] mx-auto px-4 py-8">
-        <h2 className="text-4xl font-mono font-bold text-green-900 text-center my-4">
+        <h2 className="text-3xl md:text-4xl font-mono font-bold text-green-900 text-center my-4">
           Testimonials
         </h2>
         <Slider {...settings}>
           {testimonialData.testimonials.map((testimonial) => (
-        <div className="flex flex-col h-[250px] w-[150px] justify-center">
-
-        <div
-              key={testimonial.id}
-              className="testimonials h-[90%] w-[90%]} border-2 border-white border-solid rounded-lg px-4 py-4 my-2 mx-2"
-            >
-              <div className="flex justify-center items-center">
-                <img
-                  src={testimonial.avatar}
-                  alt="userImage"
-                  className="h-[75px] rounded-full "
-                />
-                <div>
-                  <div className="font-bold text-base">{testimonial.name}</div>
-                  <div className="text-sm">{testimonial.occupation}</div>
+            <div className="flex flex-col min-h-[250px] w-[150px] justify-center">
+              <div
+                key={testimonial.id}
+                className="testimonials h-[90%] w-[90%]} border-2 border-white border-solid rounded-lg px-4 py-4 my-2 mx-2 bg-gray-300"
+              >
+                <div className="flex flex-col justify-center items-center lg:flex-col md:flex-col ">
+                  <img
+                    src={testimonial.avatar}
+                    alt="userImage"
+                    className="h-[75px] rounded-full m-2"
+                  />
+                  <div>
+                    <div className="font-bold text-base text-gray-700 text-center">
+                      {testimonial.name}
+                    </div>
+                    <div className="text-sm text-blue-500 text-center">
+                      {testimonial.occupation}
+                    </div>
+                  </div>
+                </div>
+                <div className="text-sm italic font-light">
+                  "{testimonial.comment}"
                 </div>
               </div>
-              <div className="text-sm italic">{testimonial.comment}</div>
             </div>
-        </div>
-
           ))}
         </Slider>
       </div>
