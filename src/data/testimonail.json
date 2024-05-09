@@ -1,0 +1,144 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rajesh Patel",
+      "occupation": "Software Engineer",
+      "comment": "Budgetify has been a lifesaver for me! It's so easy to use and has helped me stay on top of my finances effortlessly.",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "occupation": "Teacher",
+      "comment": "Managing my finances was always a challenge until I found Budgetify. Now, I can easily track my expenses and plan for the future.",
+      "avatar": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amit Singh",
+      "occupation": "Entrepreneur",
+      "comment": "Budgetify has revolutionized the way I manage my business finances. It's intuitive, reliable, and has everything I need to succeed.",
+      "avatar": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pooja Gupta",
+      "occupation": "Homemaker",
+      "comment": "As a homemaker, I always struggled with budgeting. But thanks to Budgetify, I now have better control over our household expenses.",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Rahul Sharma",
+      "occupation": "Student",
+      "comment": "Budgetify has been a great companion throughout my college years. It helps me track my spending and save money for future goals.",
+      "avatar": "https://randomuser.me/api/portraits/men/69.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Deepika Patel",
+      "occupation": "Freelance Graphic Designer",
+      "comment": "I love how Budgetify simplifies my financial management tasks. It's user-friendly and has all the features I need to thrive as a freelancer.",
+      "avatar": "https://randomuser.me/api/portraits/women/45.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vivek Kumar",
+      "occupation": "Banker",
+      "comment": "Budgetify is a must-have tool for anyone looking to improve their financial health. It's helped me make smarter decisions with my money.",
+      "avatar": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Neha Gupta",
+      "occupation": "Small Business Owner",
+      "comment": "Running a small business comes with its challenges, but Budgetify makes managing finances a breeze. It's my go-to solution!",
+      "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Anil Patel",
+      "occupation": "Retired Government Employee",
+      "comment": "Budgetify has simplified my retirement finances. It's easy to use and helps me stay within my budget every month.",
+      "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sneha Desai",
+      "occupation": "Marketing Executive",
+      "comment": "As a marketing professional, I'm always on the go. Budgetify keeps me organized and ensures I never miss a bill payment.",
+      "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Vikram Sharma",
+      "occupation": "IT Consultant",
+      "comment": "Budgetify has made budgeting simple and enjoyable for me. I can easily visualize my spending patterns and plan for the future.",
+      "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ananya Patel",
+      "occupation": "Content Creator",
+      "comment": "As a content creator, my income can be unpredictable. Budgetify helps me manage my finances and prepare for lean months.",
+      "avatar": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Arun Kumar",
+      "occupation": "Sales Manager",
+      "comment": "Budgetify has become an indispensable tool in my professional and personal life. It's user-friendly and efficient.",
+      "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Shreya Gupta",
+      "occupation": "Interior Designer",
+      "comment": "Budgetify has helped me maintain a healthy balance between my personal and professional expenses. It's flexible and reliable.",
+      "avatar": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Kiran Singh",
+      "occupation": "Accountant",
+      "comment": "As an accountant, I appreciate the accuracy and efficiency of Budgetify. It's a valuable tool for managing finances.",
+      "avatar": "https://randomuser.me/api/portraits/men/28.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Aarti Sharma",
+      "occupation": "Event Planner",
+      "comment": "Budgetify helps me stay within budget while planning events for clients. It's intuitive and customizable to my needs.",
+      "avatar": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Sachin Patel",
+      "occupation": "Doctor",
+      "comment": "Budgetify has simplified my financial management tasks, allowing me to focus more on patient care. It's a game-changer!",
+      "avatar": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Mitali Verma",
+      "occupation": "HR Manager",
+      "comment": "Budgetify helps me stay organized and accountable for my spending. It's a valuable tool for personal finance management.",
+      "avatar": "https://randomuser.me/api/portraits/women/37.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Aryan Gupta",
+      "occupation": "Student",
+      "comment": "Budgetify has taught me valuable lessons about financial responsibility. It's an essential tool for young adults like me.",
+      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Shalini Singh",
+      "occupation": "Real Estate Agent",
+      "comment": "Budgetify has helped me track my commissions and expenses effectively. It's user-friendly and saves me a lot of time.",
+      "avatar": "https://randomuser.me/api/portraits/women/42.jpg"
+    }
+  ]
+}
