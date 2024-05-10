@@ -4,6 +4,7 @@ import Featuresection from '../components/Featuresection';
 import Footer from '../components/Footer';
 import Crousal from '../components/Crousal';
 import Parallax from '../components/Parallax';
+import Contactus from '../components/Contactus';
 
 const Home = () => {
     return ( 
@@ -12,7 +13,7 @@ const Home = () => {
            <Featuresection />
             <Parallax />
            <Crousal />
-
+            <Contactus/>
            <Footer />
         </>
      );
