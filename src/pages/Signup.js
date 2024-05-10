@@ -5,9 +5,9 @@ const Signup = () => {
         <section className=" min-h-screen bg-gray-100 flex justify-center items-center ">
             
 
-            <div className="bg-gray-200  sm:bg-cyan-200 rounded-3xl shadow-lg max-w-3xl flex " >
+            <div className="bg-gray-200  md:bg-cyan-200 rounded-3xl shadow-lg w-4/6 flex  md:w-4/6 md:mx-auto" >
               
-              <div className=" flex flex-col bg-cyan-200 justify-center items-center w-1/2 flex-wrap ">
+              <div className=" flex flex-col bg-cyan-200 justify-center items-center   w-full md:w-1/2  rounded-lg">
                     <label className=' mt-2  font-bold text-2xl'>Signup</label>
                     <form  className= " flex  flex-col " action=''>
                       <div className='flex flex-col'>
