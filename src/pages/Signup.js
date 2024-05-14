@@ -173,13 +173,13 @@ const Signup = () => {
               {signup ? (
                 <input
                 type="submit"
-                  className="shadow-lg flex items-center justify-center hover:bg-cyan-100 rounded-lg w-6/12 h-6 mt-5 mb-5 border-2"
+                  className="shadow-lg flex items-center justify-center hover:bg-cyan-100 rounded-lg mt-5 mb-5 border-2 px-4 py-1 cursor-pointer"
                   value="SignUp"
                   onClick={handleSignup}
                   
                 />
               ) : (
-                <input type="submit" className="shadow-lg flex items-center justify-center hover:bg-cyan-100 rounded-lg w-6/12 h-6 mt-5 mb-5 border-2" onClick={handleOTP} value="Send OTP" />
+                <input type="submit" className="shadow-lg flex items-center justify-center hover:bg-cyan-100 rounded-lg mt-5 mb-5 border-2 px-4 py-1 cursor-pointer" onClick={handleOTP} value="Send OTP" />
                   
                 
               )}
@@ -189,7 +189,7 @@ const Signup = () => {
         <div className="w-1/2 sm:block hidden p-5 bg-cyan-100">
           <img
             className="rounded-3xl"
-            src="\assets\images\investment-portfolio-feature.png"
+            src="\assets\images\signup.jpg"
             alt=""
           />
         </div>

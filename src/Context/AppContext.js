@@ -4,6 +4,7 @@ export const AppContext = createContext();
 
 export default function AppContextProvider({ children }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [isLogin, setIsLogin] = useState(false);
 
 
   const toggleMenu = () => {
@@ -14,6 +15,8 @@ export default function AppContextProvider({ children }) {
     isOpen,
     setIsOpen, 
     toggleMenu,
+    isLogin,
+    setIsLogin,
   };
 
   return (
